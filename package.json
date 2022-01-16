@@ -1,0 +1,11 @@
+{
+  "name": "panopticon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:morungos/panopticon.git",
+  "author": "Stuart Watt <stuart@morungos.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --host=0.0.0.0"
+  }
+}
