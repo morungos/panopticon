@@ -8,9 +8,9 @@ title: Introduction
   </ul>
 </nav>
 
-# {{ page.title }}
+# {{ page.title }} 
 
-{% assign sections = site.front-matter %}
+> Current draft: {% include _collection_word_count.md collection="front-matter" %} words
 
 {% for section in sections %}
 {% if section.title != '' %} 

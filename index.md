@@ -10,7 +10,7 @@
 
 ## Table of contents
 
-- [*Introduction*]({{ "/introduction" | relative_url }})
+- [*Introduction*]({{ "/introduction" | relative_url }}) - {% include _collection_word_count.md collection="front-matter" %} words
 - 1\. A Postmodern Panopticon
 - 2\. A Precession of Simulacra
 - 3\. Creative Destruction
@@ -22,3 +22,14 @@
 - 9\. Health
 - 10\. Outside the Panopticon
 {: .table-of-contents}
+
+* * *
+
+{% assign total_word_count = 0 %}
+{% for collection in site.collections %}
+{% capture word_count %}{% include _collection_word_count.md collection=collection.label %}{% endcapture %}
+{% assign total_word_count = word_count | plus: total_word_count %}
+{% endfor %}
+
+Total word count: {{ total_word_count }}  
+Last updated: {{ site.time | date_to_string: "ordinal", "US" }}
