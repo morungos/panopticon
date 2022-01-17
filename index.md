@@ -11,7 +11,7 @@
 ## Table of contents
 
 - [*Introduction*]({{ "/introduction" | relative_url }}) - {% include _collection_word_count.md collection="front-matter" %} words
-- 1\. A Postmodern Panopticon
+- [1\. A Postmodern Panopticon]({{ "/chapter-01" | relative_url }}) - {% include _collection_word_count.md collection="chapter-01" %} words
 - 2\. A Precession of Simulacra
 - 3\. Creative Destruction
 - 4\. Artificial Intelligence

@@ -6,3 +6,5 @@ description: "[In progress] Data, power, and the modern world"
 collections:
   'front-matter':
     output: true
+  'chapter-01':
+    output: true
