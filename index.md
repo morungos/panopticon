@@ -1,3 +1,3 @@
 # Table of contents
 
-[Introduction](/introduction)
+[Introduction]({{ "/introduction" | relative_url }})

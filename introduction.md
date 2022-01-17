@@ -3,7 +3,7 @@ title: Introduction
 ---
 <nav aria-label="Breadcrumb" class="breadcrumb">
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href='{{ "/" | relative_url }}'>Home</a></li>
         <li><span aria-current="page">{{ page.title }}</span></li>
     </ul>
 </nav>
