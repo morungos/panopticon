@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.breadcrumb ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+  
+.breadcrumb li::before {
+  content: "|";
+  padding: 0 4px;
+  padding-right: 4px;
+}
+  
+.breadcrumb li:first-child::before {
+  content: "";
+  padding: 0;
+}

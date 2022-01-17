@@ -1,6 +1,14 @@
 ---
+title: Introduction
+---
+<nav aria-label="Breadcrumb" class="breadcrumb">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><span aria-current="page">{{ page.title }}</span></li>
+    </ul>
+</nav>
 
-# Introduction
+# {{ page.title }}
 
 {% assign sections = site.front-matter %}
 
