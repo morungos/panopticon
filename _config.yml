@@ -2,3 +2,7 @@ theme: jekyll-theme-slate
 
 title: "A New Panopticon"
 description: "[In progress] Data, power, and the modern world"
+
+collections:
+  'front-matter':
+    output: true
