@@ -2,10 +2,10 @@
 title: Introduction
 ---
 <nav aria-label="Breadcrumb" class="breadcrumb">
-    <ul>
-        <li><a href='{{ "/" | relative_url }}'>Home</a></li>
-        <li><span aria-current="page">{{ page.title }}</span></li>
-    </ul>
+  <ul>
+    <li><a href='{{ "/" | relative_url }}'>Home</a></li>
+    <li><span aria-current="page">{{ page.title }}</span></li>
+  </ul>
 </nav>
 
 # {{ page.title }}

@@ -1,3 +1,5 @@
 # Table of contents
 
-[Introduction]({{ "/introduction" | relative_url }})
+1. {: .skip}[Introduction]({{ "/introduction" | relative_url }})
+2. {: value="1"}Chapter One
+{: .table-of-contents}
