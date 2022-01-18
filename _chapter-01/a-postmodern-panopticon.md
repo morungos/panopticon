@@ -102,4 +102,6 @@ consequence of the fact it’s an aspect that doesn’t give value for most of u
 Forget the Matrix, the digital panopticon exists, and we live in it. We are seen, 
 but we cannot see the inspectors.[^1]
 
-[^1]: For the most part. Sure, there are access to information laws, and rights of redress, but they act in a different timeline.
+[^1]: 
+    For the most part. Sure, there are access to information laws, and rights of 
+    redress, but they act in a different timeline.

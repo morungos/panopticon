@@ -82,13 +82,15 @@ There are several key features of modern artificial intelligence:
   even most people within the AI community, none of this matters — we can
   usually treat an algorithm as a very simple “black box”.
 
-[^1]: This was one of the problems with the 1980s "expert systems" era of
-artificial intelligence, which worked very hard to build methodical ways to
-capture expertise, into “expert systems”. However, experts very often cannot
-explain their talents (it is often what’s known as “tacit knowledge”). So
-recording their actions in the form of data, and using that to build a model,
-is a very appealing alternative.
+[^1]: 
+    This was one of the problems with the 1980s "expert systems" era of
+    artificial intelligence, which worked very hard to build methodical ways to
+    capture expertise, into “expert systems”. However, experts very often cannot
+    explain their talents (it is often what’s known as “tacit knowledge”). So
+    recording their actions in the form of data, and using that to build a model,
+    is a very appealing alternative.
 
-[^2]: Even “neural networks” — despite their history in neuroscience — are
-today far more closely linked to statistics than neuroscience. In fact, their
-resemblance to what is going on inside your head, and mine, is pretty small.
+[^2]: 
+    Even “neural networks” — despite their history in neuroscience — are
+    today far more closely linked to statistics than neuroscience. In fact, their
+    resemblance to what is going on inside your head, and mine, is pretty small.
