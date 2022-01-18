@@ -14,7 +14,8 @@ layout: default
 Current draft: {% include _collection_word_count.md collection=page.collection %} words
 </blockquote>
 
-{% for section in site[page.collection] %}
+{% assign sections = site[page.collection] | sort: "order" %}
+{% for section in sections %}
 {% if section.title != '' %} 
 <h2>{{ section.title }}</h2>
 {% endif %}

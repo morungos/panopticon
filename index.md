@@ -15,7 +15,7 @@
 - [*Introduction*]({{ "/introduction" | relative_url }}) - {% include _collection_word_count.md collection="front-matter" %} words
 - [1\. A Postmodern Panopticon]({{ "/chapter-01" | relative_url }}) - {% include _collection_word_count.md collection="chapter-01" %} words
 - [2\. A Precession of Simulacra]({{ "/chapter-02" | relative_url }}) - {% include _collection_word_count.md collection="chapter-02" %} words
-- 3\. Artificial Intelligence
+- [3\. Artificial Intelligence]({{ "/chapter-03" | relative_url }}) - {% include _collection_word_count.md collection="chapter-03" %} words
 - 4\. Creative Destruction
 - 5\. Scientific Management and the Office Landscape
 - 6\. Politics, Crime, and Dangerous Things
