@@ -33,3 +33,16 @@
   vertical-align: super;
   font-size: 0.7rem;
 }
+
+.todo::before {
+  content: '[to do:';
+  padding-right: 6px;
+}
+
+.todo::after {
+  content: ']'
+}
+
+.todo { 
+  background-color: yellow;
+}

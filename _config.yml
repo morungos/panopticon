@@ -5,10 +5,14 @@ description: "How power, data, and artificial intelligence are transforming our 
 
 collections:
   'front-matter':
-    output: true
+    output: false
   'chapter-01':
-    output: true
+    output: false
   'chapter-02':
-    output: true
+    output: false
   'chapter-03':
-    output: true
+    output: false
+  'chapter-04':
+    output: false
+  'chapter-05':
+    output: false
