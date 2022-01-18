@@ -1,0 +1,94 @@
+---
+title: 'Modern AI - machine learning revisited'
+order: 60
+---
+In around 2007 or so, artificial intelligence began to make a vigorous comeback from
+its latest winter, with a resurgence in interest in more large-scale
+statistical and ensemble methods for building models. In the earlier phases,
+evolutionary algorithms and random forests were showing real promise, but once
+applications of GPUs took hold, to accelerate the massive dependency on
+number-crunching needed by multi-layered neural networks, “deep learning” was
+born. GPUs themselves are not especially interesting, they are simply a large
+collection of small and weak processors, but what they do provide is an elegant
+way to run identical and repetitive computation on very large scale data.
+
+There are quite a few new methods involved in modern artificial intelligence,
+but the thing they all have in common is a heavy dependence on relatively large
+datasets. The common techniques are:
+
+* **Supervised learning**. Using a dataset which is (typically manually) labelled,
+  a statistical algorithm is used to build a model capable of making predictions
+  about unseen data. For example, if we have a set of images of plant species,
+  we can build a model capable of labelling unseen pictures. The same method can
+  be used for house valuation, or credit scoring. Essentially the algorithm
+  infers a set of features, and how those features are associated with the
+  labels or values we want to predict. The method depends on quality data in its
+  original dataset, because bad data affects the predictions that it will make.
+  If for example, its applied to credit scoring and in our labelled data, women
+  were systematically scored lower than men, the algorithm will infer that. Even
+  more, it doesn’t even need to know what “women” and “men” are, clusters of
+  weakly-linked features will suffice for a prediction. 
+
+* **Unsupervised learning**. Some techniques in artificial intelligence don’t even
+  need the labelled data set, and will infer at least how features work and
+  associate, even without them. Some of the very clearest examples are in
+  language. For example, if we throw in a large collection of Reddit posts,
+  algorithms are completely capable of inferring many socially-common
+  associations — even if they aren’t socially-accepted associations.
+  
+* **Generative models**. Not all artificial intelligence techniques build models to
+  predict, some can generate too, both images and text. So, for example, if
+  trained on a block of text written by Shakespeare, it’ll generate text that
+  looks Shakespearean; if trained on Van Gogh, it’ll generate images in the
+  approximate style of Van Gogh.
+  
+One of the more interesting ways to think about what artificial intelligence is doing, is to think of it as building a huge but distorted compressed version of its original data. It is often surprisingly easy to get an artificial intelligence model to reveal some of its training data — maybe not every single instance exactly, but some of the more typical values.
+
+This is why bias is an issue. The model built by an artificial intelligence algorithm is not some Platonic form of reality, it isn’t any essence of a house value or credit score. It is a compressed history of a specific sample of human scoring, with all its flaws and biases. 
+
+One of the common reactions to this is to advocate some form of what we might call “de-biasing”, attempting to either balance out the bias, or remove it. This is misguided. Bias is, as we have seen, nothing more nor less than a manifestation of the way that we humans grasp the world. It’s imperfect, flawed, subjective, prejudiced — all because we are imperfect, flawed, subjective, and prejudiced. Is it possible to remove those imperfections, those subjective evaluations, without removing the human aspect of our decision-making. The problem is, bias is not only negative — it is also what powers our human judgement. “De-biasing”, if it was even possible, would leave us with an inhuman, mechanical, process, one which would remove all the empathy and justice that make artificial intelligence deserve the name “intelligence”. 
+
+But what we can do is design our data collection to control the biases. If we are credit scoring, we can at least track men and women separately, and check for any systematic differences between them, and if we find evidence of unfairness, we can both change our human practices to improve our scoring, and we can to some extent counterbalance that unfairness in our scoring techniques. If we fail to do this, we quickly end up in the soup that Apple found themselves in when they attempted to automate credit scoring for their new credit cards.
+
+There are several key features of modern artificial intelligence:
+
+* It is learned rather than programmed. Unlike good old-fashioned artificial
+  intelligence, there is not much in the way of human-written rules or
+  expertise. Datasets are used instead. This has advantages and disadvantages —
+  it is often quicker and cheaper to build, because expertise is extremely
+  expensive[^1]. In fact, one of the strengths of modern artificial intelligence
+  is that it overcame the weakness of good old-fashioned artificial intelligence
+  — the cost of expertise.
+
+* It is statistical. For the most part, old-fashioned artificial intelligence
+  was not heavily based on statistics — in part because humans are usually
+  pretty bad at statistical judgement. However, once we leap to use large
+  datasets, we find that there are very few decisions which are cut-and-dried.
+  Virtually all modern artificial intelligence is best understood through
+  statistical techniques of one kind or another, because the mathematics is a
+  great fit for understanding the large amounts of sometimes conflicting data
+  that we find[^2].
+
+* It is complicated. Again, for the most part, we don’t really know how any
+  given model works. A lot of effort has gone into adding explainability — and
+  this effort is growing because it is so central to a lot of regulation — but
+  for a particular model, no single human has enough of a mental model to know
+  exactly what is going on inside. This is particularly true for the large
+  convolutional models and for the large language models. In fact, it is very
+  likely that a big part of why we think these systems are “intelligent” is
+  because we don’t have any other way to think about how they are doing what
+  they do. However, although research on artificial intelligence is almost
+  entirely based on intensely mathematical publications, for most users, and
+  even most people within the AI community, none of this matters — we can
+  usually treat an algorithm as a very simple “black box”.
+
+[^1]: This was one of the problems with the 1980s "expert systems" era of
+artificial intelligence, which worked very hard to build methodical ways to
+capture expertise, into “expert systems”. However, experts very often cannot
+explain their talents (it is often what’s known as “tacit knowledge”). So
+recording their actions in the form of data, and using that to build a model,
+is a very appealing alternative.
+
+[^2]: Even “neural networks” — despite their history in neuroscience — are
+today far more closely linked to statistics than neuroscience. In fact, their
+resemblance to what is going on inside your head, and mine, is pretty small.
