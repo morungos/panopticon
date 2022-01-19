@@ -19,7 +19,7 @@
 - [4\. Creative Destruction]({{ "/chapter-04" | relative_url }}) - {% include _collection_word_count.md collection="chapter-04" %} words
 - [5\. Scientific Management and the Office Landscape]({{ "/chapter-05" | relative_url }}) - {% include _collection_word_count.md collection="chapter-05" %} words
 - 6\. Politics, Crime, and Dangerous Things
-- 7\. Money and Property
+- [7\. Money and Property]({{ "/chapter-07" | relative_url }}) - {% include _collection_word_count.md collection="chapter-07" %} words
 - 8\. Learning
 - 9\. Health
 - 10\. Outside the Panopticon
