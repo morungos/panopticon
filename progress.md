@@ -15,6 +15,7 @@ How much am I writing? Use this handy table to find out.
 
 | Total words | Daily words | Date                          |
 |:------------|:------------|:-----------------------------:|
+| 8698        |             | February 1, 2022              |
 | 7833        | 2499        | January 19, 2022              |
 | 5334        | 1918        | January 18, 2022              |
 | 3418        | n/a         | January 17, 2022              |
