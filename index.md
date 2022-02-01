@@ -18,11 +18,11 @@
 - [3\. Artificial Intelligence]({{ "/chapter-03" | relative_url }}) - {% include _collection_word_count.md collection="chapter-03" %} words
 - [4\. Creative Destruction]({{ "/chapter-04" | relative_url }}) - {% include _collection_word_count.md collection="chapter-04" %} words
 - [5\. Scientific Management and the Office Landscape]({{ "/chapter-05" | relative_url }}) - {% include _collection_word_count.md collection="chapter-05" %} words
-- 6\. Politics, Crime, and Dangerous Things
+- [6\. Politics, Crime, and Dangerous Things]({{ "/chapter-06" | relative_url }}) - {% include _collection_word_count.md collection="chapter-06" %} words
 - [7\. Money and Property]({{ "/chapter-07" | relative_url }}) - {% include _collection_word_count.md collection="chapter-07" %} words
-- 8\. Learning
-- 9\. Health
-- 10\. Outside the Panopticon
+- [8\. Learning]({{ "/chapter-08" | relative_url }}) - {% include _collection_word_count.md collection="chapter-08" %} words
+- [9\. Health]({{ "/chapter-09" | relative_url }}) - {% include _collection_word_count.md collection="chapter-09" %} words
+- [10\. Outside the Panopticon]({{ "/chapter-10" | relative_url }}) - {% include _collection_word_count.md collection="chapter-10" %} words
 {: .table-of-contents}
 
 * * *
